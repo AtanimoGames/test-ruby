@@ -1,8 +1,10 @@
 puts "Register a new user\n ___________"
 
+puts "Enter your username"
 regname = gets.chomp
 system "clear"
 
+puts "Enter your password:"
 regpass = gets.chomp
 system "clear"
 
@@ -43,7 +45,7 @@ password = gets.chomp
 
 
 
-if password == regpass and username == regname
+if regname == username and regpass == password
   puts "Welcome #{username}."
   else
   puts "Invalid password!"

@@ -36,13 +36,10 @@ puts "Please enter your password."
 password = gets.chomp
 
 	else
-	
-	if login == "login" or login == 	"Login" or login == "LOGIN"
 
 if password == regpass and username == regname
   puts "Welcome #{username}.\n "
   else
   puts "Invalid password!"
 		end
-	end
 end 

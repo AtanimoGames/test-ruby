@@ -2,12 +2,6 @@ system "clear"
 
 puts "Type: Login to login to exsist account\nOr type: Signup to register."
 
-signup = gets.chomp
-
-if signup == "signup" or signup == "Signup" or signup == "SIGNUP"
-
-
-
 puts "Register a new user\n ___________"
 
 puts "Enter your username"
@@ -17,8 +11,6 @@ system "clear"
 puts "Enter your password"
 regpass = gets.chomp
 system "clear"
-
-	else
 
 puts "Reading DataBase..."
 
@@ -38,4 +30,4 @@ if password == regpass and username == regname
   else
   puts "Invalid password!"
 		end
-end 
+

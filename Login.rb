@@ -1,14 +1,9 @@
 puts "Register a new user\n ___________"
 
-transaction = Array.new
 regname = gets.chomp
-transaction.insert(regname)
 system "clear"
 
-
-transaction = Array.new
 regpass = gets.chomp
-transaction.insert(regpass)
 system "clear"
 
 puts "loading [#........]"

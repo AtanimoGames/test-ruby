@@ -1,9 +1,9 @@
 system "clear"
 
+puts "Type: Login to login to exsist account\nOr type: Signup to register."
+
 signup = gets.chomp
 login = gets.chomp
-
-puts "Type: Login to login to exsist account\nOr type: Signup to register."
 
 if signup == "signup" or signup == "Signup" or signup == "SIGNUP"
 

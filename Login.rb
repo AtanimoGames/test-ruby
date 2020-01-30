@@ -8,28 +8,6 @@ puts "Enter your password"
 regpass = gets.chomp
 system "clear"
 
-puts "loading [#........]"
-sleep(5)
-system "clear"
-
-puts "loading [###......]"
-sleep(1)
-system "clear"
-
-puts "loading [#####...]"
-sleep(2)
-system "clear"
-
-
-puts "loading [#######...]"
-sleep(3)
-system "clear"
-
-
-puts "loading [##########]"
-sleep(1)
-system "clear"
-
 puts "Reading DataBase..."
 
 sleep(6)

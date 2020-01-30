@@ -3,7 +3,6 @@ system "clear"
 puts "Type: Login to login to exsist account\nOr type: Signup to register."
 
 signup = gets.chomp
-login = gets.chomp
 
 if signup == "signup" or signup == "Signup" or signup == "SIGNUP"
 
@@ -36,13 +35,14 @@ puts "Please enter your password."
 
 password = gets.chomp
 
-end 
-
-if login == "login" or login == "Login" or login == "LOGIN"
+	else
+	
+	if login == "login" or login == 	"Login" or login == "LOGIN"
 
 if password == regpass and username == regname
   puts "Welcome #{username}.\n "
   else
   puts "Invalid password!"
+		end
 	end
-end
+end 

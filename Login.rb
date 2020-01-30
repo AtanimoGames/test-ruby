@@ -22,6 +22,8 @@ regpass = gets.chomp
 transaction.insert(regpass)
 system "clear"
 
+	else
+
 puts "Reading DataBase..."
 
 sleep(6)
@@ -34,8 +36,6 @@ username = gets.chomp
 puts "Please enter your password."
 
 password = gets.chomp
-
-	else
 
 if password == regpass and username == regname
   puts "Welcome #{username}.\n "

@@ -1,33 +1,11 @@
-system "clear"
+ruby
+require "socket"
 
-puts "Type: Login to login to exsist account\nOr type: Signup to register."
+hostname = gets.chomp
+port = gets.chomp
 
-puts "Register a new user\n ___________"
+sock = TCPSocket.open(hostname, port)
+sock.puts("hello im sending shit over TCP")
+sock.close()
 
-puts "Enter your username"
-regname = gets.chomp
-system "clear"
-
-puts "Enter your password"
-regpass = gets.chomp
-system "clear"
-
-puts "Reading DataBase..."
-
-sleep(6)
-system "clear"
-
-puts "Hello!\nPlease enter your username to login."
-
-username = gets.chomp
-
-puts "Please enter your password."
-
-password = gets.chomp
-
-if password == regpass and username == regname
-  puts "Welcome #{username}.\n "
-  else
-  puts "Invalid password!"
-		end
 
